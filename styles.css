@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(38, 70, 83, .75);
+}
+h1 {
+    font-size: xx-large;
+    font-family: 'Karla', sans-serif;
+}
+#cityInput {
+    text-align: center;
+}
+
+#inputForm {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    height: 10%;
+    position: fixed;
+    bottom: 10rem;
+    right: 45%;
+}
+#inputForm input {
+    border: 0;
+    border-bottom: 1px solid black;
+}
+#inputForm button {
+    margin-top: 1rem;
+    font-family: 'Karla', sans-serif;
+    font-weight: 900;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    box-shadow: 0 0 1px;
+    outline: none;
+    transition: 100ms;
+}
+#inputForm button:hover {
+    box-shadow: 0 0 2px;
+}
+#inputForm button:active {
+    box-shadow: 0 0 4px;
+}
+#cardContainer img {
+    width: 4rem;
+    margin: auto;
+}
+#cardContainer h3, h4 {
+    margin: auto;
+}
+#weatherCards .card {
+    background-color: rgb(38, 70, 83);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 10px ;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+#weatherDescription , #cityName {
+    text-transform: capitalize;
+    color: rgb(233, 196, 106, .75)
+}
+#temperature {
+    font-size: xx-large;
+    color: rgb(233, 196, 106)
+}
+#cityName {
+    font-size: x-large;
+}

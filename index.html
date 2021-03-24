@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>WeatherMan</title>
+</head>
+<body>
+    <section id="cityInput">
+        <h1>What's the weather like today?</h1>
+        
+    </section>
+    <section id="weatherCards">
+        <div id="cardContainer">
+            <h3 id="cityName"></h3>
+            <img src="" alt="">
+            <h4 id="weatherDescription"></h4>
+            <h4 id="temperature"></h4>
+        </div>
+    </section>
+    
+    <form id="inputForm" action="">
+        <input id="city" type="text" placeholder="City">
+        <p id="errorMsg"></p>
+        <button id="weatherBtn">Get Weather</button>
+    </form>
+
+<script src="index.js"></script>
+</body>
+</html>
